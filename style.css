@@ -91,3 +91,26 @@ h2 {
     border-radius: 6px;
     width: 200px;
 }
+
+.quotesection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px;
+}
+.quotesection blockquote {
+    width: 800px;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    font-style: italic;
+}
+.quoteattr {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+    margin-right: 24px;
+    font-style: normal;
+}
